@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Sacramento&family=Noto+Serif+KR:wght@500&display=swap"
+        rel="stylesheet">
+
+    <title>Chart 2</title>
+
+</head>
+
+<body>
+    <div id="_header">
+        <h1 style="display: inline-block;" onclick="location.href = 'home.html'">Peach</h1>
+
+        <input id="search" type="text" placeholder="&nbsp;검색어를 입력하세요">
+        <button id="search2">Search</button>
+
+        <button id="search2" style="margin-left: 50px;" onclick="location.href = 'login.html'">Logout</button>
+    </div>
+
+    <div id="vertical1" onclick="location.href = 'chart.html'" style="opacity: 0.6;">Daily Chart</div>
+    <div id="vertical2" onclick="location.href = 'custom.html'">Custom Mix</div>
+    <div id="vertical3" onclick="location.href = 'playlist.html'">My Playlist</div>
+    <div id="vertical4" onclick="location.href = 'community.html'">Notice<br>Board</div>
+
+    <div id="back">
+        <table style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;날짜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;재생&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>제목</th>
+                <th>가수</th>
+                <th>앨범</th>
+                <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;가사&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+                <th>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;담기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            </tr>
+
+            <tr>
+                <td>10일 전</td>
+                <td>
+                    <a href="https://youtu.be/ybiINVA_gLc" target="_blank">
+                        <img src="_palette.jpg" alt="YouTube로 이동" width="50px" height="50px">
+                    </a>
+                </td>
+                <td>이런 엔딩</td>
+                <td>아이유</td>
+                <td>Palette</td>
+                <td>
+                    <a href="https://www.melon.com/song/popup/lyricPrint.htm?songId=303781573" target="_blank">
+                        <img src="_lyrics.png" alt="가사" width="30px" height="30px">
+                    </a>
+                </td>
+                <td><input type="checkbox"></td>
+            </tr>
+
+            <tr>
+                <td>11일 전</td>
+                <td>
+                    <a href="https://youtu.be/KczYjTVrK_oc" target="_blank">
+                        <img src="_akmu.jpg" alt="YouTube로 이동" width="50px" height="50px">
+                    </a>
+                </td>
+                <td>어떻게 이별까지 사랑하겠어, 널 사랑하는 거지</td>
+                <td>악동뮤지션</td>
+                <td>항해</td>
+                <td>
+                    <a href="https://www.melon.com/song/popup/lyricPrint.htm?songId=32061975" target="_blank">
+                        <img src="_lyrics.png" alt="가사" width="30px" height="30px">
+                    </a>
+                </td>
+                <td><input type="checkbox"></td>
+            </tr>
+
+        </table>
+
+        <div id="next">
+            <br><br><br>
+            <button id="whiteB" type="button" onclick="location.href='chart.html'">
+                이전 페이지</button>
+            - 2 -
+            <button id="whiteB" type="button">
+                다음 페이지
+            </button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

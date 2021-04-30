@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Sacramento&family=Noto+Serif+KR:wght@500&display=swap"
+        rel="stylesheet">
+
+    <title>Peach</title>
+
+</head>
+
+<body>
+    <div id="_header">
+        <h1 style="display: inline-block;" onclick="location.href = 'home.html'">Peach</h1>
+
+        <input id="search" type="text" placeholder="&nbsp;검색어를 입력하세요">
+        <button id="search2">Search</button>
+
+        <button id="search2" style="margin-left: 50px;" onclick="location.href = 'login.html'">Logout</button>
+    </div>
+
+    <div id="vertical1" onclick="location.href = 'chart.html'">Daily Chart</div>
+    <div id="vertical2" onclick="location.href = 'custom.html'">Custom Mix</div>
+    <div id="vertical3" onclick="location.href = 'playlist.html'">My Playlist</div>
+    <div id="vertical4" onclick="location.href = 'community.html'">Notice<br>Board</div>
+
+    <div id="back">
+        <table style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td colspan="3"">
+                    <h3>오늘의 추천곡</h3>
+                </td>
+            </tr>
+
+            <tr>
+                <td rowspan=" 2">
+                    <a href="https://youtu.be/6744glqD6lk" target="_blank">
+                        <div class="album"></div>
+                    </a>
+                </td>
+
+                <td rowspan="2">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+
+                <td>
+                    아이유, 밤편지<br>
+                    밤편지(2017)<br><br><br>
+                    <hr>
+                </td>
+
+            </tr>
+
+            <tr>
+                <td style="font-style: italic;">
+                    이 밤 그날의 반딧불을<br>
+                    당신의 창 가까이 보낼게요<br>
+                    사랑한다는 말이에요<br><br>
+
+                    <a href="https://www.melon.com/song/popup/lyricPrint.htm?songId=30314784" target="_blank">
+                        <button class="button">가사 보기</button>
+                    </a>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <a href="https://www.melon.com/album/detail.htm?albumId=10047890" target="_blank">
+                        <button class="button">앨범 보기</button>
+                    </a>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+
+</html>

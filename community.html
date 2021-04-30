@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Sacramento&family=Noto+Serif+KR:wght@500&display=swap"
+        rel="stylesheet">
+
+    <title>Community</title>
+
+</head>
+
+<body>
+    <div id="_header">
+        <h1 style="display: inline-block;" onclick="location.href = 'home.html'">Peach</h1>
+
+        <input id="search" type="text" placeholder="&nbsp;검색어를 입력하세요">
+        <button id="search2">Search</button>
+
+        <button id="search2" style="margin-left: 50px;" onclick="location.href = 'login.html'">Logout</button>
+    </div>
+
+    <div id="vertical1" onclick="location.href = 'chart.html'">Daily Chart</div>
+    <div id="vertical2" onclick="location.href = 'custom.html'">Custom Mix</div>
+    <div id="vertical3" onclick="location.href = 'playlist.html'">My Playlist</div>
+    <div id="vertical4" onclick="location.href = 'community.html'" style="opacity: 0.6;">Notice<br>Board</div>
+
+    <div id="back">
+        <table style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <th colspan="7">노래 추천 게시판</td>
+            </tr>
+
+            <tr>
+                <td colspan="7">
+                    <select name="_search">
+                        <option value="제목">제목</option>
+                        <option value="내용">내용</option>
+                        <option value="작성자">작성자</option>
+                    </select>
+
+                    <input type="text" name="query">
+
+                    <button id="search2" style="width: 55px; height: 30px;">검색</button>
+                </td>
+            </tr>
+
+            <!-- <div style="text-align: center; display: inline-block;">
+                <br>
+                <p>
+                    <select name="_search">
+                        <option value="제목">제목</option>
+                        <option value="내용">내용</option>
+                        <option value="작성자">작성자</option>
+                    </select>
+        
+                    <input type="text" name="query">
+        
+                    <button id="search2" style="width: 55px; height: 30px;">검색</button>
+                </p>
+            </div> -->
+
+            <tr>
+                <th>&nbsp;&nbsp;&nbsp;번호&nbsp;&nbsp;&nbsp;</th>
+                <th>제목</th>
+                <th>&nbsp;&nbsp;작성자&nbsp;&nbsp;</th>
+                <th>날짜</th>
+                <th>&nbsp;&nbsp;&nbsp;조회 수&nbsp;&nbsp;&nbsp;</th>
+                <th>&nbsp;&nbsp;&nbsp;댓글 수&nbsp;&nbsp;&nbsp;</th>
+                <th>&nbsp;&nbsp;&nbsp;추천 수&nbsp;&nbsp;&nbsp;</th>
+            </tr>
+
+            <tr>
+                <td>공지</td>
+                <td>게시판에서 여러분이 좋아하는 노래를 추천해주세요!</td>
+                <td>관리자</td>
+                <td>2021. 04. 08</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>제가 많이 듣는 노래 추천합니다~ ^^</td>
+                <td>호랑이</td>
+                <td>방금 전</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>근데</td>
+                <td>여우</td>
+                <td>2021. 04. 27</td>
+                <td>5</td>
+                <td>2</td>
+                <td>0</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>안녕하세요?</td>
+                <td>호랑이</td>
+                <td>2021. 04. 26</td>
+                <td>4</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>ㅎㅎㅎㅎㅎ</td>
+                <td>토끼2</td>
+                <td>2021. 04. 24</td>
+                <td>17</td>
+                <td>6</td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>!</td>
+                <td>기린</td>
+                <td>2021. 04. 22</td>
+                <td>3</td>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>초록비 좋아요</td>
+                <td>거북이</td>
+                <td>2021. 04. 20</td>
+                <td>8</td>
+                <td>2</td>
+                <td>4</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>노래 추천</td>
+                <td>토끼</td>
+                <td>2021. 04. 16</td>
+                <td>10</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>이거 좋음</td>
+                <td>사자</td>
+                <td>2021. 04. 14</td>
+                <td>17</td>
+                <td>3</td>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>요즘 꽂힌 노래</td>
+                <td>고양이</td>
+                <td>2021. 04. 10</td>
+                <td>25</td>
+                <td>7</td>
+                <td>3</td>
+            </tr>
+        </table>
+
+        <div>
+            <p>
+                <button id="search2" style="float: right;">
+                    글쓰기
+                </button>
+            </p>
+        </div>
+        <br>
+
+
+        <div id="next">
+            <p>
+                <button id="whiteB" type="button">
+                    이전 페이지</button>
+                - 1 -
+                <button id="whiteB" type="button">
+                    다음 페이지
+                </button>
+            </p>
+
+        </div>
+    </div>
+
+</body>
+
+</html>

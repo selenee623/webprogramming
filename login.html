@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Sacramento&family=Noto+Serif+KR:wght@500&display=swap"
+        rel="stylesheet">
+
+    <title>Login</title>
+</head>
+
+<body>
+    <div id="back2">
+        <h1 id="logincenter" style="margin-left: 0px;">Peach</h1>
+        <form id="_id">
+            <p>
+                <input type="text" placeholder="아이디"
+                    style="width: 193px; height: 30px; font-family: 'Nanum Myeongjo', serif;">
+            </p>
+        </form>
+
+        <form id="_password">
+            <p>
+                <input type="password" placeholder="비밀번호"
+                    style="width: 193px; height: 30px; font-family: 'Nanum Myeongjo', serif;">
+            </p>
+        </form>
+
+        <button class="login" onclick="login()">
+            로그인
+        </button>
+    </div>
+
+    <script>
+        function login() {
+            var _id = document.forms['_id'];
+            var _password = document.forms['_password'];
+
+            if (_id[0].value == 'asdf' && _password[0].value == 'qwer') {
+                location.href = "home.html";
+            }
+            else {
+                alert("아이디 또는 비밀번호를 잘못 입력하셨습니다");
+            }
+        }
+    </script>
+</body>
+
+</html>
