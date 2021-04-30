@@ -154,7 +154,7 @@ td, th {
     width: 350px;
     height: 350px;
     background-size: 350px 350px;
-    background-image: url("./img/_letter.jpg");
+    background-image: url("/img/_letter.jpg");
     float: auto;
 }
 
